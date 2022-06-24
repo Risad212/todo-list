@@ -1,0 +1,54 @@
+.input-container{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.input-container input{
+    width: 18rem;
+    padding: 0.5rem 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    outline: none;
+    border: 1px solid black;
+}
+.input-container .add{
+    padding: 0.5rem 2rem;
+    border: 1px solid rgb(77, 123, 77);
+    background: rgb(77, 123, 77);
+    font-weight: 600;
+    color: #fff;
+}
+.singleTodo {
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background: #ffffff;
+    margin-top: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    background-color: #352f5b;
+    color: #fff;
+    align-items: center;
+}
+.singleTodo h3{
+    font-size: 1.2rem;
+}
+
+.singleTodo div i{
+    margin-right: 1rem;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .singleTodo{
+        width: 52%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .singleTodo{
+        width: 70%;
+    }
+}
